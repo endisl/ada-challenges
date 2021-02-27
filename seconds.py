@@ -7,7 +7,7 @@ value_s = value_i.strip()
 # check if the input is an integer
 result = re.match("[-+]?\d+$", value_s)
 
-# check if the condistipns are met
+# check if the conditions are met
 if (result is not None) and (0 < int(value_s)) <= 864000:
 
     value = int(value_s)
